@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Please verify you are a human </title>
+</head>
+<body>
+<link href="cdn.jsdelivr.net/gh/iDevMore/sws/20.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Spam Protection! </title>
+
+
+<center style="margin: 25px;">
+<div style="border: 1px solid #38b7fd;" class="max-w-full mt-16 inline-block align-bottom bg-white rounded-lg px-2 pt-4 pb-4 text-left overflow-visible shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full sm:p-6" data-v-7b8ec576="">
+   <div data-v-7b8ec576="">
+      <div class="mx-auto flex items-center justify-center -mt-18" data-v-7b8ec576="">
+         <div class="intro-banner-vdo-play-btn pinkBg" data-v-23d867f6="" data-v-7b8ec576=""><i class="glyphicon glyphicon-play whiteText" aria-hidden="true" data-v-23d867f6=""></i><span class="ripple pinkBg" data-v-23d867f6=""></span><span class="ripple pinkBg" data-v-23d867f6=""></span><span class="ripple pinkBg" data-v-23d867f6=""></span></div>
+      </div>
+      <div class="mt-3 text-center sm:mt-5 " data-v-7b8ec576="">
+         <h3 id="headlessui-dialog-title-34" class="text-lg leading-6 font-medium text-gray-900" data-v-7b8ec576="">Spam Protection!</h3>
+         <div style="    color: #ffffff;
+    padding: 5px;
+    background: #8a56ff;
+    border-radius: 10px;
+    margin: 10px;" id="time">Time left : <span id="timer">0:00</span></div>
+<script>
+document.getElementById('timer').innerHTML =
+  4 + ":" + 11;
+startTimer();
+
+
+function startTimer() {
+  var presentTime = document.getElementById('timer').innerHTML;
+  var timeArray = presentTime.split(/[:]+/);
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  if(s==59){m=m-1}
+  if(m<0){
+    return
+  }
+  
+  document.getElementById('timer').innerHTML =
+    m + ":" + s;
+  console.log(m)
+  setTimeout(startTimer, 1000);
+  
+}
+
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+  if (sec < 0) {sec = "59"};
+  return sec;
+}
+</script>
+         <div class="mt-2 " data-v-7b8ec576="">
+            <div class="bg-white shadow overflow-hidden sm:rounded-md" data-v-3710f280="" data-v-7b8ec576="">
+               <ul role="list" class="divide-y divide-gray-200" data-v-3710f280=""></ul>
+            </div>
+         </div>
+      </div>
+      <div data-v-7b8ec576="">
+         <p style="padding: 0;" class="text-center pt-4 text-gray-500" data-v-7b8ec576="">Last step to send your free mobile data to your mobile number</p>
+         <p class="text-center text-gray-500" data-v-7b8ec576="">Complete at least 2 offers in order to send your data.</p>
+      </div>
+   </div>
+   <div id="step2-wrapper" style="display: contents;">
+                  <a target="_blank" rel="noreferrer" href="https://smrturl.co/o/186169/53211400?s1=" title="Enter your mobile number">
+                     <div class="button">Subscribe with offer 1</div>
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://smrturl.co/o/186169/53167714?s1=" title="Enter your mobile number">
+                     <div class="button">Subscribe with offer 2</div>
+                  </a>
+                  <a target="_blank" rel="noreferrer" href="https://smrturl.co/o/186169/53237554?s1=" title="Enter your mobile number">
+                     <div class="button">Subscribe with offer 3</div>
+                  </a>
+               </div>
+</div>
+</center>
+<style>
+.button{
+background: #ededed;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 3px #726b6b;
+}
+body{
+background: #898b8d47;
+}
+</style>
+<script src="cdn.jsdelivr.net/gh/iDevMore/sws/20.js"></script>
+
+
+
+</body>
+</html>
